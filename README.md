@@ -12,7 +12,7 @@ GitHub will automatically block commits containing active API keys for your
 protection.
 3. Managing Large Data Files
 GitHub has a web upload limit of 25MB and a repository limit of 100MB. For this
-Capstone:
+   Project:
 Local Work: Keep your full datasets (e.g., 500MB+ databases) on your local
 machine.
 ├── data/
@@ -22,11 +22,6 @@ machine.
 ├── .gitignore <-- Prevents secret/large file leaks
 └── README.md <-- Project documentation
 
-•
-•
-•
-
-•
 
 GitHub Upload: Only upload a sample version of your data to the data/
 folder. This allows the autograder to verify your code logic without timing out or
